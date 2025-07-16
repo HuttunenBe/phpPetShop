@@ -28,7 +28,7 @@ session_start();
                 <option value="Snake">Snake</option>
                 <option value="Rat">Rat</option>
             </select>
-            <input type="submit" value="add Pet" class='button' name='submit'>
+            <input type="submit" value="Add Pet" class='button' name='submit'>
         </div>
     </form>
 
@@ -68,23 +68,27 @@ session_start();
             }
         }
 
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') { 
-            $petName = $_POST['petName']; 
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $petName = $_POST['petName'];
             $petAge = $_POST['petAge'];
             $petType = $_POST['petType'];
 
-            $pet = new Pet($petName, $petAge, $petType); 
-            $_SESSION['pet'][] = $pet; 
+            $pet = new Pet($petName, $petAge, $petType);
+            $_SESSION['pet'][] = $pet;
 
-            greet($petName, $petAge, $petType); 
-            petAction($petType); 
+            greet($petName, $petAge, $petType);
+            petAction($petType);
         }
 
-        if (isset($_SESSION['pet'])) { 
+        if (isset($_SESSION['pet'])) {
             echo "<div id='container'>";
-            foreach ($_SESSION['pet'] as $pet) { 
-                echo "<p>Pet </br> Name: {$pet->petName} </br> Age: {$pet->petAge} </br> Type: {$pet->petType}</p>";
+            foreach ($_SESSION['pet'] as $pet) {
+                echo "<p>Pet <br> 
+                Name: {$pet->petName} <br> 
+                Age: {$pet->petAge} <br> 
+                Type: {$pet->petType}<br>";
                 echo petAction($pet->petType);
+                echo "</p>";
             }
             echo "</div>";
         }
@@ -92,8 +96,4 @@ session_start();
     </div>
 
 </body>
-
 </html>
-
-
-
