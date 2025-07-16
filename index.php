@@ -13,7 +13,6 @@ session_start();
     <style>
     </style>
 </head>
-
 <body>
     <h1>Pet Shop</h1>
 
@@ -94,6 +93,6 @@ session_start();
         }
         ?>
     </div>
-
 </body>
+
 </html>
