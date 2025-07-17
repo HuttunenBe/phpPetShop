@@ -18,5 +18,4 @@ ____
     style="width: 70%;" 
   />
 
-Watch Full Demo on YouTube <a href="https://youtu.be/EXoIIKUmqU0"> Here!
-</a>
+ #### 🎬 [Watch Full Demo on YouTube Here!](https://youtu.be/EXoIIKUmqU0)
