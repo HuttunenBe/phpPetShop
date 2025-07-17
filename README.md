@@ -14,7 +14,7 @@ ____
 ## 🚀 Preview
 
   <img 
-    src="phpPetShopGif.gif" 
+    src="gifPetShop.gif" 
     style="width: 70%;" 
   />
 
