@@ -9,3 +9,14 @@ ____
 * CSS  
 * PHP  
 
+---
+
+## 🚀 Preview
+
+  <img 
+    src="phpPetShopGif.gif" 
+    style="width: 70%;" 
+  />
+
+Watch Full Demo on YouTube <a href="https://youtu.be/EXoIIKUmqU0"> Here!
+</a>
