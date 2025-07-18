@@ -15,7 +15,7 @@ ____
 
   <img 
     src="gifPetShop.gif" 
-    style="width: 70%;" 
+    style="width: 80%;" 
   />
 
- #### 🎬 [Watch Full Demo on YouTube Here!](https://youtu.be/EXoIIKUmqU0)
+ #### 🎬 [Watch Full Demo on YouTube!](https://youtu.be/EXoIIKUmqU0)
