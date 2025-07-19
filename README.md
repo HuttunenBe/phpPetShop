@@ -18,7 +18,7 @@ A simple PHP site where users can add pets by their name, age and type. Each pet
     style="width: 80%;" 
   />
 
- #### 🎬 [Watch Full Demo on YouTube!](https://youtu.be/EXoIIKUmqU0)
+ ### 🎬 [Watch Full Demo on YouTube!](https://youtu.be/EXoIIKUmqU0)
 
  ____
 
