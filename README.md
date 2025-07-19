@@ -4,6 +4,13 @@ A simple PHP site where users can add pets by their name, age and type. Each pet
 
 ---
 
+## ✅ Features
+* Add pets with name, age, and type (Cat, Dog, Bird, Snake, Rat)  
+* Save pets using PHP sessions  
+* Display a greeting after adding a pet with its information  
+* Show a unique sound based on the animal type  
+
+
 ## 🚀 Preview
 
   <img 
